@@ -1,0 +1,577 @@
+
+/*MY CODE*/
+* {
+    margin: 0;
+    padding: 0;
+}
+.background {
+    background-image: url("background.jpg");
+    min-height: 812px;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* Needed to position the navbar */
+  position: relative;
+}
+.container {
+    margin: 0 auto 0 10px;
+}
+.wrapper{
+    width: 100%;
+    line-height: 40px;
+}
+.menulinks:hover {
+    color:rgba(116, 116, 116, 0.904);
+}
+h1 {
+    margin-top: 130px;
+    font-family: 'Big Shoulders Text', cursive;
+    font-size: 80px;
+    color: rgba(255, 255, 255, 0.897);
+    margin-left: 60px;
+}
+.p1 {
+    font-family: 'Big Shoulders Text', cursive;
+    color: floralwhite;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 25px;
+}
+.p2 {
+    font-family: 'Big Shoulders Text', cursive;
+    color: floralwhite;
+    font-size: 20px;
+    margin-top: 1px;
+    margin-left: 150px;
+}
+h2 {
+    font-family: 'Big Shoulders Text', cursive;
+    color: black;
+    font-size: 40px;
+    border: 1px solid white;
+    border-radius: 1px;
+    text-align: center;
+    width: 180px;
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+.h2a {
+    text-decoration: none;
+}
+.h31{
+    position: relative;
+    margin-left: 140px;
+    margin-top: 0px;
+    color: floralwhite;
+    font-size: 20px;
+}
+.h32 {
+    position: relative;
+    margin-left: 95px;
+    color: floralwhite;
+    font-size: 16px;
+    display: inline;
+}
+.h32[note] {
+    position: relative;
+}
+.h32[note]::after{
+    content: attr(note);
+    display: block;
+    position: absolute;
+    background-color: rgba(226, 247, 247, 0.699);
+    border-radius: 7px;
+    padding: 0 10px 0 10px;
+    top: 30px;
+    left: -30px;
+    white-space: nowrap;
+    transform: scale(0);
+    transition: transform ease-out 150ms;
+}
+.h32[note]:hover::after{
+    transform: scale(1);
+}
+ul {
+    margin-left: 30px;
+    list-style: none;
+    word-spacing: 20px;
+}
+ul li {
+    display: inline-block;
+    line-height: 50px;
+    margin-top: 10px;
+
+}
+ul li a{
+    text-decoration: none;
+    word-spacing: 1px;
+    font-size: 20px;
+    color:  white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+#loginbtn {
+    top: 0px;
+    right: 50px;
+    position: absolute;
+    background: none;
+    color: rgb(112, 235, 235);
+    border: 1px solid rgb(112, 235, 235);
+    font-size: 18px;
+    border-radius: 20px;
+    overflow: hidden;
+    width: 70px;
+    height: 50px;
+    text-align: center;
+}
+.background2 {
+    margin: 0;
+    background: rgb(223, 219, 219);
+    height: 900px;
+}
+#choose {
+    font-size: 70px;
+    margin:0;
+    color: rgb(30, 207, 133);
+    display: block;
+    text-align: center;
+    transform: translateX(-50px);
+}
+p{
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 20px;
+}
+.title_instrument {
+    font-family: 'Oswald', sans-serif;
+    color: rgb(219, 174, 25);
+    font-size: 50px;
+    display: inline;
+}
+.image{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    bottom: -140px;
+}
+.sections {
+    margin: 0 40px 0 150px;
+    margin-bottom: 10px;
+}
+@media only screen and (min-width:548px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    .background {
+        background-image: url("background.jpg");
+        min-height: 702px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    .container {
+        margin: 0 auto 0 10px;
+    }
+    .wrapper {
+        width: 100%;
+        line-height: 50px;
+        margin-top: 170px;
+    }
+    h1{
+        margin-left: 170px;
+        font-family: 'Big Shoulders Text', cursive;
+        font-size: 80px;
+        color: rgba(255, 255, 255, 0.897);
+    }
+    .p1 {
+        margin-left: 90px;
+        font-family: 'Big Shoulders Text', cursive;
+        font-size: 40px;
+        color: rgba(255, 255, 255, 0.897);
+        margin-top: 40px;
+    }
+    h2 {
+        font-family: 'Big Shoulders Text', cursive;
+        color: black;
+        font-size: 40px;
+        border: 1px solid white;
+        border-radius: 1px;
+        text-align: center;
+        width: 180px;
+        background-color: white;
+        margin-top: 40px;
+        margin-left: 190px;
+    }
+    .h2a {
+        text-decoration: none;
+    }
+    .h31{
+        position: relative;
+        margin-left: 240px;
+        margin-top: 0px;
+        color: floralwhite;
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .h32 {
+        position: relative;
+        margin-left: 200px;
+        margin-top: -10px;
+        color: floralwhite;
+        font-size: 16px;
+    }
+    ul {
+        margin-left: 30px;
+        list-style: none;
+        word-spacing: 20px;
+    }
+    ul li {
+        display: inline-block;
+        line-height: 50px;
+        margin-top: 10px;
+    
+    }
+    ul li a{
+        text-decoration: none;
+        word-spacing: 1px;
+        font-size: 20px;
+        color:  white;
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+    }
+    #loginbtn {
+        top: 0px;
+        right: 50px;
+        position: absolute;
+        background: none;
+        color: rgb(112, 235, 235);
+        border: 1px solid rgb(112, 235, 235);
+        font-size: 18px;
+        border-radius: 20px;
+        overflow: hidden;
+        width: 70px;
+        height: 50px;
+        text-align: center;
+    }
+}
+@media only screen and (min-width:768px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    .background {
+        background-image: url("background.jpg");
+        min-height: 1024px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    .container {
+        margin: 0 auto 0 10px;
+    }
+    .wrapper {
+        width: 100%;
+        line-height: 50px;
+        margin-top: 200px;
+    }
+    h1{
+        margin-left: 250px;
+        font-family: 'Big Shoulders Text', cursive;
+        font-size: 80px;
+        color: rgba(255, 255, 255, 0.897);
+    }
+    .p1 {
+        margin-left: 110px;
+        font-family: 'Big Shoulders Text', cursive;
+        font-size: 40px;
+        color: rgba(255, 255, 255, 0.897);
+        margin-top: 60px;
+    }
+    h2 {
+        font-family: 'Big Shoulders Text', cursive;
+        color: black;
+        font-size: 40px;
+        border: 1px solid white;
+        border-radius: 1px;
+        text-align: center;
+        width: 180px;
+        background-color: white;
+        margin-top: 50px;
+        margin-left: 270px;
+    }
+    .h2a {
+        text-decoration: none;
+    }
+    .h31{
+        position: relative;
+        margin-left: 320px;
+        margin-top: 0px;
+        color: floralwhite;
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .h32 {
+        position: relative;
+        margin-left: 280px;
+        margin-top: -10px;
+        color: floralwhite;
+        font-size: 16px;
+    }
+    ul {
+        margin-left: 30px;
+        list-style: none;
+        word-spacing: 20px;
+    }
+    ul li {
+        display: inline-block;
+        line-height: 50px;
+        margin-top: 10px;
+    
+    }
+    ul li a{
+        text-decoration: none;
+        word-spacing: 1px;
+        font-size: 20px;
+        color:  white;
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+    }
+    #loginbtn {
+        top: 0px;
+        right: 50px;
+        position: absolute;
+        background: none;
+        color: rgb(112, 235, 235);
+        border: 1px solid rgb(112, 235, 235);
+        font-size: 18px;
+        border-radius: 20px;
+        overflow: hidden;
+        width: 70px;
+        height: 50px;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    .background {
+        background-image: url("background.jpg");
+        min-height: 1366px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    .container {
+        margin: 0 auto 0 10px;
+    }
+    .wrapper {
+        width: 100%;
+        line-height: 50px;
+        margin-top: 400px;
+    }
+    h1{
+        margin-left: 380px;
+        font-family: 'Big Shoulders Text', cursive;
+        font-size: 80px;
+        color: rgba(255, 255, 255, 0.897);
+    }
+    .p1 {
+        margin-left: 160px;
+        font-family: 'Big Shoulders Text', cursive;
+        font-size: 40px;
+        color: rgba(255, 255, 255, 0.897);
+        margin-top: 60px;
+    }
+    h2 {
+        font-family: 'Big Shoulders Text', cursive;
+        color: black;
+        font-size: 40px;
+        border: 1px solid white;
+        border-radius: 1px;
+        text-align: center;
+        width: 180px;
+        background-color: white;
+        margin-top: 50px;
+        margin-left: 420px;
+    }
+    .h2a {
+        text-decoration: none;
+    }
+    .h31{
+        position: relative;
+        margin-left: 465px;
+        margin-top: 0px;
+        color: floralwhite;
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .h32 {
+        position: relative;
+        margin-left: 420px;
+        margin-top: -10px;
+        color: floralwhite;
+        font-size: 16px;
+    }
+    ul {
+        margin-left: 30px;
+        list-style: none;
+        word-spacing: 20px;
+    }
+    ul li {
+        display: inline-block;
+        line-height: 50px;
+        margin-top: 10px;
+    
+    }
+    ul li a{
+        text-decoration: none;
+        word-spacing: 1px;
+        font-size: 20px;
+        color:  white;
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+    }
+    #loginbtn {
+        top: 0px;
+        right: 50px;
+        position: absolute;
+        background: none;
+        color: rgb(112, 235, 235);
+        border: 1px solid rgb(112, 235, 235);
+        font-size: 18px;
+        border-radius: 20px;
+        overflow: hidden;
+        width: 70px;
+        height: 50px;
+        text-align: center;
+    }
+}
+@media only screen and (min-width: 1440px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    .background {
+        background-image: url("background.jpg");
+        min-height: 800px;
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* Needed to position the navbar */
+        position: relative;
+    }
+    .container {
+        margin: 0 auto 0 10px;
+    }
+    .wrapper {
+        margin: 0 auto 0 200px;
+        width: 1000px;
+        line-height: 70px;
+    }
+    .menulinks:hover {
+        color:rgba(116, 116, 116, 0.904);
+    }
+    h1{
+        margin-top: 130px;
+        font-family: 'Big Shoulders Text', cursive;
+        font-size: 80px;
+        color: rgba(255, 255, 255, 0.897);
+        margin-left: 600px;
+    }
+    .p1 {
+        margin-left: 340px;
+        font-family: 'Big Shoulders Text', cursive;
+        font-size: 40px;
+        color: rgba(255, 255, 255, 0.897);
+        margin-top: 60px;
+    }
+    h2 {
+        font-family: 'Big Shoulders Text', cursive;
+        color: black;
+        font-size: 40px;
+        border: 1px solid white;
+        border-radius: 1px;
+        text-align: center;
+        width: 180px;
+        background-color: white;
+        margin-top: -10px;
+        margin-left: 0px;
+    }
+    .h2a {
+        text-decoration: none;
+        display: block;
+        padding-left: 620px;
+        padding-top: 30px;
+    }
+    .h2a::after{
+        content: '';
+        display: block;
+        width: 0;
+        background: rgb(189, 219, 255);
+        transition: width .3s;
+        padding: 0px 40px 2px 0;
+
+    }
+    /*Width below decides on how much underline moves to right*/
+    .h2a:hover::after{
+        width: 17.34%;
+        transition: width .3s;
+    }
+    .h31{
+        position: relative;
+        margin-left: 669px;
+        margin-top: 0px;
+        color: floralwhite;
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .h32 {
+        position: relative;
+        margin-left: 630px;
+        margin-top: -10px;
+        color: floralwhite;
+        font-size: 16px;
+    }
+    ul {
+        margin-left: 30px;
+        list-style: none;
+        word-spacing: 20px;
+    }
+    ul li {
+        display: inline-block;
+        line-height: 50px;
+        margin-top: 10px;
+    
+    }
+    ul li a{
+        text-decoration: none;
+        word-spacing: 1px;
+        font-size: 20px;
+        color:  white;
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+    }
+    #loginbtn {
+        top: 0px;
+        right: 50px;
+        position: absolute;
+        background: none;
+        color: rgb(112, 235, 235);
+        border: 1px solid rgb(112, 235, 235);
+        font-size: 18px;
+        border-radius: 20px;
+        overflow: hidden;
+        width: 70px;
+        height: 50px;
+        text-align: center;
+    }
+}
